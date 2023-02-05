@@ -1,0 +1,29 @@
+.container {
+    border: 1px solid #4E476B;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container input {
+    border: none;
+    padding: 8px;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+}
+
+.container button {
+    border: none;
+    background-color: #FFF;
+    padding: 8px;
+    cursor: pointer;
+    border-left: 1px solid #4E476B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container button img {
+    width: 25px;
+    height: 25px;
+}

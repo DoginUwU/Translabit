@@ -1,0 +1,48 @@
+.root {
+    margin: 0 auto;
+    max-width: 1320px;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.body {
+    display: flex;
+    flex: 1;
+    gap: 16px;
+    padding: 20px 0;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.statics {
+    border: 1px solid #4E476B;
+    padding: 8px;
+}
+
+.statics ul {
+    padding: 0;
+    margin-bottom: 16px;
+}
+
+.statics ul:last-child {
+    margin-bottom: 0;
+}
+
+.statics li {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    flex: 1;
+    border: 1px solid #4E476B;
+}

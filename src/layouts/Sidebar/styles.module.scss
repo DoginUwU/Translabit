@@ -1,0 +1,36 @@
+.container {
+    min-width: 160px;
+    z-index: 1;
+    border: 1px solid #4E476B;
+    overflow-x: hidden;
+}
+
+.content {
+    padding: 8px;
+}
+
+.content ul {
+    padding: 0;
+    margin-bottom: 16px;
+}
+
+.content ul:last-child {
+    margin-bottom: 0;
+}
+
+.content li {
+    list-style: none;
+    border: 2px solid #000;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+.content li:hover {
+    background-color: #4E476B;
+    color: #fff;
+    cursor: pointer;
+}
+
+.content li:last-child {
+    margin-bottom: 0;
+}

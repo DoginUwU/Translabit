@@ -1,0 +1,22 @@
+.container {
+    width: fit-content;
+    border: 1px solid #4E476B;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.container h1 {
+    padding: 16px;
+    background-color: #FFF;
+    z-index: 2;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: 1px solid #4E476B;
+    top: 8px;
+    left: 8px;
+    z-index: -1;
+}

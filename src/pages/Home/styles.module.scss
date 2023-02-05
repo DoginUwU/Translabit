@@ -1,0 +1,42 @@
+.container {
+    padding: 16px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+        "about undefined"
+        "news uploads";
+    gap: 32px;
+}
+
+.about {
+    grid-area: about;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.undefined {
+    grid-area: undefined;
+}
+
+.news {
+    grid-area: news;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.uploads {
+    grid-area: uploads;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.uploadsGames {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex-wrap: wrap;
+}
